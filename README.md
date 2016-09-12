@@ -3,6 +3,8 @@
 Docker container with Swagger UI ([swagger-ui](https://github.com/swagger-api/swagger-ui)).
 Supports custom API URL and title.
 
+[![](https://images.microbadger.com/badges/image/rgorodischer/swagger-ui.svg)](https://microbadger.com/images/rgorodischer/swagger-ui)
+
 # Running from command line
 ```
 docker run -d -p 9191:9090 -e API_URL="http://petstore.swagger.io/v2/swagger.json" -e TITLE="Custom Swagger UI" rgorodischer/swagger-ui
